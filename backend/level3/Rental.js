@@ -41,7 +41,6 @@ class Rental {
   };
 
   calculateCommision = (price) => {
-    console.log(price * 0.3)
     return price * 0.3;
   }
 };
